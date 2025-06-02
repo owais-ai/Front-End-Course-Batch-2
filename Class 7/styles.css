@@ -1,0 +1,45 @@
+h1 {
+    color: rgb(181, 14, 106);
+    background-color: aqua;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#one{
+font-weight: 100;
+font-style: italic;
+text-transform: capitalize;
+}
+
+#two {
+    background-color: pink;
+    font-size: 20px;
+    text-transform: lowercase;
+    width: 380px;
+    padding-top: 80px;
+    padding-bottom: auto;
+    height: 200px;
+    border-width: 3px;
+    border-color: rgb(122, 64, 14);
+    border-style: solid;
+    margin: 100px;
+    text-align: center;
+    
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.three {
+    color: chartreuse;
+    background-color: black;
+    width: 600px;
+    font-size: 1.7em;
+    line-height: 32px;
+    text-align: justify;
+    border: 4px solid red;
+    margin-left: auto;
+
+   
+}

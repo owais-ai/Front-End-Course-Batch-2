@@ -1,0 +1,33 @@
+
+#first{
+    font-size: 20px;
+    text-align: justify;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    width: 200px;
+    padding: 10px;
+    color: red;
+    background-color: yellow;
+}
+
+#second{
+    font-style: italic;
+    border: 2px dotted red;
+    width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+    padding: 20px 25px 15px 10px;
+    color: blue;
+    background-color: aqua;
+    }
+
+#third{
+    border: 2px dashed purple;
+    width: 200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 0px;
+    color: brown;
+    background-color: greenyellow;
+}
