@@ -1,0 +1,22 @@
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+li#gaib{
+    display: none;
+}
+
+li.chup{
+    visibility: hidden;
+}
+
+.first-div{
+    color: red;
+}
+
+.second{
+    color:blueviolet
+}
+

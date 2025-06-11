@@ -1,0 +1,51 @@
+#first{
+    background-color: aqua;
+    height: 60px;
+    width: 150px;
+}
+#second{
+    background-color: rgb(155, 64, 42);
+    height: 60px;
+    width: 150px;
+}
+#third{
+    background-color: rgb(166, 34, 128);
+    height: 60px;
+    width: 150px;
+}
+#fourth{
+    background-color: rgb(58, 18, 166);
+    height: 60px;
+    width: 150px;
+}
+
+.cars{
+    display: flex;
+    flex-direction: row;  
+    /* colomn */
+    justify-content: center;  
+    /* start end space-around space-between; */
+    gap: 20px;
+    align-items: center; 
+    height: 250px;
+    border: 2px solid black;
+}
+
+.header{
+    background-color: rgb(4, 4, 135);
+    color: white;
+    height: 150px;
+}
+
+#first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+}
