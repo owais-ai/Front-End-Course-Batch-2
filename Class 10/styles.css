@@ -19,33 +19,61 @@
     width: 150px;
 }
 
-.cars{
-    display: flex;
-    flex-direction: row;  
-    /* colomn */
-    justify-content: center;  
-    /* start end space-around space-between; */
-    gap: 20px;
-    align-items: center; 
-    height: 250px;
-    border: 2px solid black;
-}
-
-.header{
-    background-color: rgb(4, 4, 135);
+#header{
+    background-color: rgb(11, 11, 102);
+    height: 200px;
     color: white;
-    height: 150px;
 }
 
 #first-row{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#icon-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#second-row{
+    border-top: 1px solid rgb(153, 152, 152);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#third-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.car{
+    border: 1px solid lightgray;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-#icon{
+#cars{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
 }
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: green;
+}
+
+
+
+
+
