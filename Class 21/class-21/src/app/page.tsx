@@ -1,16 +1,21 @@
 import Link from "next/link";
+import Header from "./components/Header";
+import Image from "next/image";
 
 
 export default function Home() {
   return (
 <div>
-  <h1>This is Our Class 21</h1>
-  <p>In this class we will learn about Next.js</p>
+  <Header />
+  <h1 className="text-4xl font-extrabold text-center text-yellow-600 mt-5">Pak Wheels</h1>
 
-  <p>Click down to Navigate to Contact us Page</p>
-    <Link href={"/contact"} className="text-blue-800 underline">Contact Us</Link>
-    <br />
-    <Link href={"/about"} className="text-blue-800 underline">About-us</Link>
+  <div className="cars flex justify-center gap-4">
+    <div className="corolla border w-28 h-24"><Image src={'/Corolla.webp'} alt="Toyotta Corolla" height={100} width={100}/></div>
+    <div className="alto border w-28 h-24">a</div>
+    <div className="civic border w-28 h-24"><Image src={"/Civic.webp"} alt="Civic" width={100} height={100}/></div>
+    <div className="swift border w-28 h-24">c</div>
+  </div>
+  
 
 </div>
   );

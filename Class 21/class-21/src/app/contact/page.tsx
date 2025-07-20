@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Header from "../components/Header";
 
 export default function contact() {
   return (
     <div>
+      <Header />
       <p>
         Hi, This is our Contact Us Page, and Thankyou for visiting us on our
         contact us page.
